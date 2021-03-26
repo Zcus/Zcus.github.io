@@ -9,7 +9,7 @@
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    21.3月考试总结 |  Zcus&#39;s blog
+    IOI2020集训队作业题单 |  Zcus&#39;s blog
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -40,7 +40,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-21.3月考试总结"
+  id="post-IOI2020集训队作业题单"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -51,22 +51,22 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  21.3月考试总结
+  IOI2020集训队作业题单
 </h1>
  
 
     </header>
      
     <div class="article-meta">
-      <a href="/2021/03/25/21.3%E6%9C%88%E8%80%83%E8%AF%95%E6%80%BB%E7%BB%93/" class="article-date">
-  <time datetime="2021-03-25T06:07:05.000Z" itemprop="datePublished">2021-03-25</time>
+      <a href="/2021/03/25/IOI2020%E9%9B%86%E8%AE%AD%E9%98%9F%E4%BD%9C%E4%B8%9A%E9%A2%98%E5%8D%95/" class="article-date">
+  <time datetime="2021-03-25T13:32:27.000Z" itemprop="datePublished">2021-03-25</time>
 </a>   
 <div class="word_count">
     <span class="post-time">
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">908</span>
+            <span class="post-count">358</span>
         </span>
     </span>
 
@@ -75,52 +75,185 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">3 min</span>
+            <span class="post-count">2 min</span>
         </span>
     </span>
 </div>
  
     </div>
       
-    <div class="tocbot"></div>
-
 
 
 
   
     <div class="article-entry" itemprop="articleBody">
        
-  <p>21.3月考试总结</p>
+  <p>我吐了， ATcoder的题目luogu现在交不了， 导致不好统计。。。。</p>
+<p>这里先放Atcoder的</p>
 <span id="more"></span>
 
-<h2 id="3-6"><a href="#3-6" class="headerlink" title="3.6"></a>3.6</h2><p>没考</p>
-<h2 id="3-7"><a href="#3-7" class="headerlink" title="3.7"></a>3.7</h2><p>好像是50多分吧<br>自闭了， 被吊起来打</p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>首先是对于DP还是不够熟练， 考试的时候也没有认真思考， 送走了T1这样的一个送分题， 其实认真想一下还是可以马上想出来的<br>第二题是可以直接推导式子来做出来的， 但是我这里不够熟练导致还是只有暴力分<br>第三题以为DSU ON TREE有不少分， 但是还是想错了， 其实和暴力同分浪费了考试的时候大量的时间<br>考试的时候精力不集中， 竟然睡着了。。。。。。。。</p>
-<h3 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h3><h4 id="序列"><a href="#序列" class="headerlink" title="序列"></a>序列</h4><p>首先可以把这个不像样的数学式子化简成人话， 也就是每一段里面选的个数如果不超过h个那么就有1的贡献<br>DP方程比较显然然后中间的转移套上一个比较厉害的贪心就好了</p>
-<h4 id="递推"><a href="#递推" class="headerlink" title="递推"></a>递推</h4><ul>
-<li><p>你可以直接推导式子</p>
+
+
+<ul>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3858">AT3858 [AGC020D] Min Max Repetition</a></p>
 </li>
-<li><p>发现答案是 $(a + b_i) ^ n$， 但是你还需要判断虚部收敛性， 虚部收敛相当于级数收敛， 那么模长小于1</p>
-<h4 id="统计"><a href="#统计" class="headerlink" title="统计"></a>统计</h4><p>这题还是比较有趣的<br>考虑一个序列的情况， 不太好做。 考虑分块。 发现在一个块内， 两个块内的都比较好做。 如果是三个块内的时候， 那么我们就可以使用FFT把这个块左边的右边的合并起来就可以了<br>那么一个树的情况就是套上一个树分块， 代码细节有点多</p>
-<h2 id="3-13"><a href="#3-13" class="headerlink" title="3.13"></a>3.13</h2><p>得分:<br>$25 + 4 + 72 = 101$<br>自闭了， 又垫底了</p>
-<h3 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a>总结</h3><p>T1是一个搜索题， 是真的没想到也想不到<br>T2因为题目太复杂而直接弃掉， 失去了64pts暴力分的机会<br>T3一直在玩提交答案题。</p>
-<h3 id="题解-1"><a href="#题解-1" class="headerlink" title="题解"></a>题解</h3><h4 id="图书馆"><a href="#图书馆" class="headerlink" title="图书馆"></a>图书馆</h4><p>直接搜， 发现可以过</p>
-<h4 id="决战圣诞树"><a href="#决战圣诞树" class="headerlink" title="决战圣诞树"></a>决战圣诞树</h4><p>挺好的一个题， 至少补足了我的知识盲点<br>首先注意到这个  $P mod k = 1$ 这就是在提示我们其实是存在模P意义下的单位根, 那么我们就可以考虑多项式做法。<br>那么题目就可以变成<br>（乘多项式都是循环卷积）</p>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3859">AT3859 [AGC020E] Encoding Subsets</a></p>
 </li>
-<li><p>每次对一个点相邻的点乘上一个多项式</p>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3860">AT3860 [AGC020F] Arcs on a Circle</a></p>
 </li>
-<li><p>每次对一个点的子树乘上多项式</p>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3871">AT3871 [AGC021E] Ball Eat Chameleons</a></p>
 </li>
-<li><p>每次选一个子树询问子树内多项式的乘积的某一项系数</p>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3872">AT3872 [AGC021F] Trinity</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3949">AT3949 [AGC022D] Shopping</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3950">AT3950 [AGC022E] Median Replace</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3951">AT3951 [AGC022F] Checkers</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3955">AT3955 [AGC023D] Go Home</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3956">AT3956 [AGC023E] Inversions</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3957">AT3957 [AGC023F] 01 on Tree</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3961">AT3961 [AGC024D] Isomorphism Freak</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3962">AT3962 [AGC024E] Sequence Growing Hard</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3963">AT3963 [AGC024F] Simple Subsequence Problem</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3967">AT3967 [AGC025D] Choosing Points</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3968">AT3968 [AGC025E] Walking on a Tree</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3969">AT3969 [AGC025F] Addition and Andition</a></p>
+</li>
+<li><p><a href="">AGC026D</a></p>
+</li>
+<li><p><a href="">AGC026E</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3974">AT3974 [AGC026E] Synchronized Subsequence</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4378">AT4378 [AGC027D] Modulo Matrix</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4379">AT4379 [AGC027E] ABBreviate</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4380">AT4380 [AGC027F] Grafting</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4437">AT4437 [AGC028C] Min Cost Cycle</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4438">AT4438 [AGC028D] Chords</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4439">AT4439 [AGC028E] High Elements</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4440">AT4440 [AGC028F] Reachable Cells</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4502">AT4502 [AGC029C] Lexicographic constraints</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4504">AT4504 [AGC029E] Wandering TKHS</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4505">AT4505 [AGC029F] Construction of a tree</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4512">AT4512 [AGC030C] Coloring Torus</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4513">AT4513 [AGC030D] Inversion Sum</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4514">AT4514 [AGC030E] Less than 3</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4515">AT4515 [AGC030F] Permutation and Minimum</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4694">AT4694 [AGC031D] A Sequence of Permutations</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4695">AT4695 [AGC031E] Snuke the Phantom Thief</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4696">AT4696 [AGC031F] Walk on Graph</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4518">AT4518 [AGC032C] Three Circuits</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4519">AT4519 [AGC032D] Rotation Sort</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4520">AT4520 [AGC032E] Modulo Pairing</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4521">AT4521 [AGC032F] One Third</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4927">AT4927 [AGC033D] Complexity</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4928">AT4928 [AGC033E] Go around a Circle</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4929">AT4929 [AGC033F] Adding Edges</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4994">AT4994 [AGC034D] Manhattan Max Matching</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4995">AT4995 [AGC034E] Complete Compress</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4996">AT4996 [AGC034F] RNG and XOR</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT5140">AT5140 [AGC035C] Skolem XOR Tree</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT5141">AT5141 [AGC035D] Add and Remove</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT5142">AT5142 [AGC035E] Develop</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT5143">AT5143 [AGC035F] Two Histograms</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT5147">AT5147 [AGC036D] Negative Cycle</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT5148">AT5148 [AGC036E] ABC String</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT5149">AT5149 [AGC036F] Square Constraints</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT5161">AT5161 [AGC037D] Sorting a Grid</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT5162">AT5162 [AGC037E] Reversing and Concatenating</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT5163">AT5163 [AGC037F] Counting of Subarrays</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT5202">AT5202 [AGC038E] Gachapon</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT5203">AT5203 [AGC038F] Two Permutations</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT5618">AT5618 [AGC039D] Incenters</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT5619">AT5619 [AGC039E] Pairing Points</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT5620">AT5620 [AGC039F] Min Product Sum</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3878">AT3878 [ARC089D] ColoringBalls</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3939">AT3939 [ARC091D] Strange Nim</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3945">AT3945 [ARC092D] Two Faced Edges</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3980">AT3980 [ARC093C] Bichrome Spanning Tree</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT3981">AT3981 [ARC093D] Dark Horse</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4114">AT4114 [ARC095D] Permutation Tree</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4119">AT4119 [ARC096C] Everything on It</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4120">AT4120 [ARC096D] Sweet Alchemy</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4133">AT4133 [ARC097D] Monochrome Cat</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4144">AT4144 [ARC098D] Donation</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4163">AT4163 [ARC099D] Eating Symbols Hard</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4169">AT4169 [ARC100D] Colorful Sequences</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4352">AT4352 [ARC101C] Ribbons on Tree</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4353">AT4353 [ARC101D] Robots and Exits</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4363">AT4363 [ARC102D] Revenge of BBuBBBlesort!</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4432">AT4432 [ARC103B] Robot Arms</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.luogu.com.cn/problem/AT4434">AT4434 [ARC103D] Distance Sums</a></p>
 </li>
 </ul>
-<p>这个很明显， 直接维护点值就可以。 有一个套路就是维护相邻的点和子树内的点的时候是可以使用一种bfs与dfs序结合的做法， 就是在dfs遍历的时候先遍历完自己的所有儿子， 然后在向下递归， 这样就可以表示出相邻的点和子树内的点了</p>
-<h2 id="3-14"><a href="#3-14" class="headerlink" title="3.14"></a>3.14</h2><p>最近都是自闭考试</p>
-<h3 id="总结-2"><a href="#总结-2" class="headerlink" title="总结"></a>总结</h3><p>虽然T1一开始博弈论走的方向很对， 但是最后一步竟然打错表了， 与正解失之交臂。<br>T2可以直接使用暴力分AC， 考试的时候暴力都没写还是太不行了<br>T3推式子比较麻烦的题自己在这方面还是不行， 要去多练练</p>
-<h3 id="题解-2"><a href="#题解-2" class="headerlink" title="题解"></a>题解</h3><p>好难写啊</p>
-<h4 id="T1"><a href="#T1" class="headerlink" title="T1"></a>T1</h4><p>直接去找规律吧， 有时候博弈论的题目先打出表之后不要去满屏的找规律， 可以自己先根据自己对这个题目的理解再结合表去寻找规律。</p>
-<h4 id="T2"><a href="#T2" class="headerlink" title="T2"></a>T2</h4><p>被暴力直接A掉可还行<br>其实正解挺麻烦的<br>先咕了</p>
-<h4 id="T3"><a href="#T3" class="headerlink" title="T3"></a>T3</h4><p>咕</p>
  
       <!-- reward -->
       
@@ -191,7 +324,7 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://zcus.github.io/2021/03/25/21.3%E6%9C%88%E8%80%83%E8%AF%95%E6%80%BB%E7%BB%93/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://zcus.github.io/2021/03/25/IOI2020%E9%9B%86%E8%AE%AD%E9%98%9F%E4%BD%9C%E4%B8%9A%E9%A2%98%E5%8D%95/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -202,19 +335,10 @@
    
   <nav class="article-nav">
     
+    
       <a href="/2021/03/25/21.3%E6%9C%88%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            21.3月做题记录
-          
-        </div>
-      </a>
-    
-    
-      <a href="/2021/03/25/%5B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5D%E7%BA%B3%E4%BB%80%E5%9D%87%E8%A1%A1/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">纳什均衡</div>
+        <div class="article-nav-title">21.3月做题记录</div>
       </a>
     
   </nav>

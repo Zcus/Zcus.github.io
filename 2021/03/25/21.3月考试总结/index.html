@@ -1,46 +1,94 @@
 <!DOCTYPE html><html class="appearance-auto" lang="en"><head><meta charset="UTF-8"><title>21.3月考试总结</title><meta name="description" content="Happy ? !"><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><!-- Google Analytics --><!-- End Google Analytics -->
 <!-- Baidu Analytics --><!-- End Baidu Analytics --><link rel="icon" href="/images/favicon.png"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/post.css"><link rel="stylesheet" href="/style/themes/highlight-theme-light.css"><script src="/js/highlight.pack.js"></script><meta name="description" content="21.3月考试总结
 
+ 3.6
+没考
+ 3.7
+好像是50多分吧
+自闭了， 被吊起来打
+ 总结
+首先是对于DP还是不够熟练， 考试的时候也没有认真思考， 送走了T1这样的一个送分题， 其实认真想一下还是可以马上想出来的
+第二题是可以直接推导式子来做出来的， 但是我这里不够熟练导致还是只有暴力分
+第三题以为DSU ON TREE有不少分， 但是还是想错了， 其实和暴力同分浪费了考试的时候大量的时间
+考试的时候精力不集中， 竟然睡着了。。。。。。。。
+ 题解
+ 序列
+首先可以把这个不像样的数学式子化简成人话， 也就是每一段里面选的个数如果不超过h个那么就有1的贡献
+DP方程比较显然然后中间的转移套上一个比较厉害的贪心就好了
+ 递推
 
-3.6没考
-3.7好像是50多分吧自闭了， 被吊起来打
-总结首先是对于DP还是不够熟练， 考试的时候也没有认真思考， 送走了T1这样的一个送分题， 其实认真想一下还是可以马上想出来的第二题是可以直接推导式子来做出来的， 但是我这里不够熟练导致还是只有暴力分第三题以为DSU ON TREE有不少分， 但是还是想错了， 其实和暴力同分浪费了考试的时候大量的时间考试的时候精力不集中， 竟然睡着了。。。。。。。。
-题解序列首先可以把这个不像样的数学式子化简成人话， 也就是每一段里面选的个数如果不超过h个那么就有1的贡献DP方程比较显然然后中间的转移套上一个比较厉害的贪心就好了
-递推
 你可以直接推导式子
+发现答案是 (a+bi)n(a + b_i) ^ n(a+.."><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css">
 
-发现答案是 $(a + b_i) ^ n$， 但是你还需要判断虚部收敛性， 虚部收敛相当.."><meta name="generator" content="Hexo 5.4.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Zcus's blog" type="application/atom+xml">
-</head><body class="is-flex is-flex-direction-column"><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">Zcus's blog</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><div class="is-full-height" id="postTopic"><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">21.3月考试总结</p><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">Click back to the top</p></div></h3><aside class="is-flex-shrink-0"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/about">About</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/about">About</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></header><main><main class="container is-max-widescreen content section post-page pt-4 px-4"><div class="columns is-flex-desktop is-justify-content-center is-flex-direction-row-reverse"><div class="column is-3 is-hidden-mobile"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-6"><span class="toc-text">3.6</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-7"><span class="toc-text">3.7</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-text">总结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E8%A7%A3"><span class="toc-text">题解</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BA%8F%E5%88%97"><span class="toc-text">序列</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%80%92%E6%8E%A8"><span class="toc-text">递推</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BB%9F%E8%AE%A1"><span class="toc-text">统计</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-13"><span class="toc-text">3.13</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-1"><span class="toc-text">总结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E8%A7%A3-1"><span class="toc-text">题解</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%BE%E4%B9%A6%E9%A6%86"><span class="toc-text">图书馆</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%86%B3%E6%88%98%E5%9C%A3%E8%AF%9E%E6%A0%91"><span class="toc-text">决战圣诞树</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-14"><span class="toc-text">3.14</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-2"><span class="toc-text">总结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E8%A7%A3-2"><span class="toc-text">题解</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#T1"><span class="toc-text">T1</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#T2"><span class="toc-text">T2</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#T3"><span class="toc-text">T3</span></a></li></ol></li></ol></li></ol></div><div class="column is-9"><header class="my-4"><a href="/tags/%E8%80%83%E8%AF%95%E6%80%BB%E7%BB%93"><i class="tag post-item-tag">考试总结</i></a></header><h1 class="mt-0 mb-1 is-family-serif" id="postTitle">21.3月考试总结</h1><time class="has-text-grey" datetime="2021-03-25T06:07:05.000Z">2021-03-25</time><article class="mt-2 post-content"><p>21.3月考试总结</p>
+</head><body class="is-flex is-flex-direction-column"><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">Zcus's blog</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><div class="is-full-height" id="postTopic"><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">21.3月考试总结</p><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">Click back to the top</p></div></h3><aside class="is-flex-shrink-0"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/about">About</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-inline-block"><a href="/">Home</a></h3><h3 class="is-inline-block"><a href="/about">About</a></h3><h3 class="is-inline-block"><a href="/archives">Archives</a></h3></header><main><main class="container is-max-widescreen content section post-page pt-4 px-4"><div class="columns is-flex-desktop is-justify-content-center is-flex-direction-row-reverse"><div class="column is-3 is-hidden-mobile"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#36"><span class="toc-text"> 3.6</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#37"><span class="toc-text"> 3.7</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-text"> 总结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E8%A7%A3"><span class="toc-text"> 题解</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BA%8F%E5%88%97"><span class="toc-text"> 序列</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%80%92%E6%8E%A8"><span class="toc-text"> 递推</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BB%9F%E8%AE%A1"><span class="toc-text"> 统计</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#313"><span class="toc-text"> 3.13</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-2"><span class="toc-text"> 总结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E8%A7%A3-2"><span class="toc-text"> 题解</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%BE%E4%B9%A6%E9%A6%86"><span class="toc-text"> 图书馆</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%86%B3%E6%88%98%E5%9C%A3%E8%AF%9E%E6%A0%91"><span class="toc-text"> 决战圣诞树</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#314"><span class="toc-text"> 3.14</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-3"><span class="toc-text"> 总结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E8%A7%A3-3"><span class="toc-text"> 题解</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#t1"><span class="toc-text"> T1</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#t2"><span class="toc-text"> T2</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#t3"><span class="toc-text"> T3</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#330"><span class="toc-text"> 3.30</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#t3-2"><span class="toc-text"> T3</span></a></li></ol></li></ol></div><div class="column is-9"><header class="my-4"><a href="/tags/%E8%80%83%E8%AF%95%E6%80%BB%E7%BB%93"><i class="tag post-item-tag">考试总结</i></a></header><h1 class="mt-0 mb-1 is-family-serif" id="postTitle">21.3月考试总结</h1><time class="has-text-grey" datetime="2021-03-25T06:07:05.000Z">2021-03-25</time><article class="mt-2 post-content"><p>21.3月考试总结</p>
 <span id="more"></span>
-
-<h2 id="3-6"><a href="#3-6" class="headerlink" title="3.6"></a>3.6</h2><p>没考</p>
-<h2 id="3-7"><a href="#3-7" class="headerlink" title="3.7"></a>3.7</h2><p>好像是50多分吧<br>自闭了， 被吊起来打</p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>首先是对于DP还是不够熟练， 考试的时候也没有认真思考， 送走了T1这样的一个送分题， 其实认真想一下还是可以马上想出来的<br>第二题是可以直接推导式子来做出来的， 但是我这里不够熟练导致还是只有暴力分<br>第三题以为DSU ON TREE有不少分， 但是还是想错了， 其实和暴力同分浪费了考试的时候大量的时间<br>考试的时候精力不集中， 竟然睡着了。。。。。。。。</p>
-<h3 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h3><h4 id="序列"><a href="#序列" class="headerlink" title="序列"></a>序列</h4><p>首先可以把这个不像样的数学式子化简成人话， 也就是每一段里面选的个数如果不超过h个那么就有1的贡献<br>DP方程比较显然然后中间的转移套上一个比较厉害的贪心就好了</p>
-<h4 id="递推"><a href="#递推" class="headerlink" title="递推"></a>递推</h4><ul>
-<li><p>你可以直接推导式子</p>
-</li>
-<li><p>发现答案是 $(a + b_i) ^ n$， 但是你还需要判断虚部收敛性， 虚部收敛相当于级数收敛， 那么模长小于1</p>
-<h4 id="统计"><a href="#统计" class="headerlink" title="统计"></a>统计</h4><p>这题还是比较有趣的<br>考虑一个序列的情况， 不太好做。 考虑分块。 发现在一个块内， 两个块内的都比较好做。 如果是三个块内的时候， 那么我们就可以使用FFT把这个块左边的右边的合并起来就可以了<br>那么一个树的情况就是套上一个树分块， 代码细节有点多</p>
-<h2 id="3-13"><a href="#3-13" class="headerlink" title="3.13"></a>3.13</h2><p>得分:<br>$25 + 4 + 72 = 101$<br>自闭了， 又垫底了</p>
-<h3 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a>总结</h3><p>T1是一个搜索题， 是真的没想到也想不到<br>T2因为题目太复杂而直接弃掉， 失去了64pts暴力分的机会<br>T3一直在玩提交答案题。</p>
-<h3 id="题解-1"><a href="#题解-1" class="headerlink" title="题解"></a>题解</h3><h4 id="图书馆"><a href="#图书馆" class="headerlink" title="图书馆"></a>图书馆</h4><p>直接搜， 发现可以过</p>
-<h4 id="决战圣诞树"><a href="#决战圣诞树" class="headerlink" title="决战圣诞树"></a>决战圣诞树</h4><p>挺好的一个题， 至少补足了我的知识盲点<br>首先注意到这个  $P mod k = 1$ 这就是在提示我们其实是存在模P意义下的单位根, 那么我们就可以考虑多项式做法。<br>那么题目就可以变成<br>（乘多项式都是循环卷积）</p>
-</li>
-<li><p>每次对一个点相邻的点乘上一个多项式</p>
-</li>
-<li><p>每次对一个点的子树乘上多项式</p>
-</li>
-<li><p>每次选一个子树询问子树内多项式的乘积的某一项系数</p>
-</li>
+<h2 id="36"><a class="markdownIt-Anchor" href="#36"></a> 3.6</h2>
+<p>没考</p>
+<h2 id="37"><a class="markdownIt-Anchor" href="#37"></a> 3.7</h2>
+<p>好像是50多分吧<br>
+自闭了， 被吊起来打</p>
+<h3 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h3>
+<p>首先是对于DP还是不够熟练， 考试的时候也没有认真思考， 送走了T1这样的一个送分题， 其实认真想一下还是可以马上想出来的<br>
+第二题是可以直接推导式子来做出来的， 但是我这里不够熟练导致还是只有暴力分<br>
+第三题以为DSU ON TREE有不少分， 但是还是想错了， 其实和暴力同分浪费了考试的时候大量的时间<br>
+考试的时候精力不集中， 竟然睡着了。。。。。。。。</p>
+<h3 id="题解"><a class="markdownIt-Anchor" href="#题解"></a> 题解</h3>
+<h4 id="序列"><a class="markdownIt-Anchor" href="#序列"></a> 序列</h4>
+<p>首先可以把这个不像样的数学式子化简成人话， 也就是每一段里面选的个数如果不超过h个那么就有1的贡献<br>
+DP方程比较显然然后中间的转移套上一个比较厉害的贪心就好了</p>
+<h4 id="递推"><a class="markdownIt-Anchor" href="#递推"></a> 递推</h4>
+<ul>
+<li>你可以直接推导式子</li>
+<li>发现答案是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mi>a</mi><mo>+</mo><msub><mi>b</mi><mi>i</mi></msub><msup><mo stretchy="false">)</mo><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">(a + b_i) ^ n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span></span></span></span></span></span></span></span>， 但是你还需要判断虚部收敛性， 虚部收敛相当于级数收敛， 那么模长小于1</li>
+</ul>
+<h4 id="统计"><a class="markdownIt-Anchor" href="#统计"></a> 统计</h4>
+<p>这题还是比较有趣的<br>
+考虑一个序列的情况， 不太好做。 考虑分块。 发现在一个块内， 两个块内的都比较好做。 如果是三个块内的时候， 那么我们就可以使用FFT把这个块左边的右边的合并起来就可以了<br>
+那么一个树的情况就是套上一个树分块， 代码细节有点多</p>
+<h2 id="313"><a class="markdownIt-Anchor" href="#313"></a> 3.13</h2>
+<p>得分:<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>25</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>72</mn><mo>=</mo><mn>101</mn></mrow><annotation encoding="application/x-tex">25 + 4 + 72 = 101</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">2</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">7</span><span class="mord">2</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">1</span></span></span></span><br>
+自闭了， 又垫底了</p>
+<h3 id="总结-2"><a class="markdownIt-Anchor" href="#总结-2"></a> 总结</h3>
+<p>T1是一个搜索题， 是真的没想到也想不到<br>
+T2因为题目太复杂而直接弃掉， 失去了64pts暴力分的机会<br>
+T3一直在玩提交答案题。</p>
+<h3 id="题解-2"><a class="markdownIt-Anchor" href="#题解-2"></a> 题解</h3>
+<h4 id="图书馆"><a class="markdownIt-Anchor" href="#图书馆"></a> 图书馆</h4>
+<p>直接搜， 发现可以过</p>
+<h4 id="决战圣诞树"><a class="markdownIt-Anchor" href="#决战圣诞树"></a> 决战圣诞树</h4>
+<p>挺好的一个题， 至少补足了我的知识盲点<br>
+首先注意到这个  <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>P</mi><mi>m</mi><mi>o</mi><mi>d</mi><mi>k</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">P mod k = 1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord mathdefault">m</span><span class="mord mathdefault">o</span><span class="mord mathdefault">d</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 这就是在提示我们其实是存在模P意义下的单位根, 那么我们就可以考虑多项式做法。<br>
+那么题目就可以变成<br>
+（乘多项式都是循环卷积）</p>
+<ul>
+<li>每次对一个点相邻的点乘上一个多项式</li>
+<li>每次对一个点的子树乘上多项式</li>
+<li>每次选一个子树询问子树内多项式的乘积的某一项系数</li>
 </ul>
 <p>这个很明显， 直接维护点值就可以。 有一个套路就是维护相邻的点和子树内的点的时候是可以使用一种bfs与dfs序结合的做法， 就是在dfs遍历的时候先遍历完自己的所有儿子， 然后在向下递归， 这样就可以表示出相邻的点和子树内的点了</p>
-<h2 id="3-14"><a href="#3-14" class="headerlink" title="3.14"></a>3.14</h2><p>最近都是自闭考试</p>
-<h3 id="总结-2"><a href="#总结-2" class="headerlink" title="总结"></a>总结</h3><p>虽然T1一开始博弈论走的方向很对， 但是最后一步竟然打错表了， 与正解失之交臂。<br>T2可以直接使用暴力分AC， 考试的时候暴力都没写还是太不行了<br>T3推式子比较麻烦的题自己在这方面还是不行， 要去多练练</p>
-<h3 id="题解-2"><a href="#题解-2" class="headerlink" title="题解"></a>题解</h3><p>好难写啊</p>
-<h4 id="T1"><a href="#T1" class="headerlink" title="T1"></a>T1</h4><p>直接去找规律吧， 有时候博弈论的题目先打出表之后不要去满屏的找规律， 可以自己先根据自己对这个题目的理解再结合表去寻找规律。</p>
-<h4 id="T2"><a href="#T2" class="headerlink" title="T2"></a>T2</h4><p>被暴力直接A掉可还行<br>其实正解挺麻烦的<br>先咕了</p>
-<h4 id="T3"><a href="#T3" class="headerlink" title="T3"></a>T3</h4><p>咕</p>
+<h2 id="314"><a class="markdownIt-Anchor" href="#314"></a> 3.14</h2>
+<p>最近都是自闭考试</p>
+<h3 id="总结-3"><a class="markdownIt-Anchor" href="#总结-3"></a> 总结</h3>
+<p>虽然T1一开始博弈论走的方向很对， 但是最后一步竟然打错表了， 与正解失之交臂。<br>
+T2可以直接使用暴力分AC， 考试的时候暴力都没写还是太不行了<br>
+T3推式子比较麻烦的题自己在这方面还是不行， 要去多练练</p>
+<h3 id="题解-3"><a class="markdownIt-Anchor" href="#题解-3"></a> 题解</h3>
+<p>好难写啊</p>
+<h4 id="t1"><a class="markdownIt-Anchor" href="#t1"></a> T1</h4>
+<p>直接去找规律吧， 有时候博弈论的题目先打出表之后不要去满屏的找规律， 可以自己先根据自己对这个题目的理解再结合表去寻找规律。</p>
+<h4 id="t2"><a class="markdownIt-Anchor" href="#t2"></a> T2</h4>
+<p>被暴力直接A掉可还行<br>
+其实正解挺麻烦的<br>
+先咕了</p>
+<h4 id="t3"><a class="markdownIt-Anchor" href="#t3"></a> T3</h4>
+<p>咕</p>
+<h2 id="330"><a class="markdownIt-Anchor" href="#330"></a> 3.30</h2>
+<p>没想到吧， 前面咕了这么多</p>
+<h3 id="t3-2"><a class="markdownIt-Anchor" href="#t3-2"></a> T3</h3>
 </article><section class="jump-container is-flex is-justify-content-space-between my-6"><!-- em is empty placeholder--><a class="button is-default" href="/2021/03/25/%E6%95%B0%E5%AD%A6%E8%AE%B0%E5%BD%95/" title="数学记录"><i class="iconfont icon-prev mr-2 has-text-grey"></i><span class="has-text-weight-semibold">Previous: 数学记录</span></a><a class="button is-default" href="/2021/03/25/hello-world/" title="Hello World"><span class="has-text-weight-semibold">Next: Hello World</span><i class="iconfont icon-next ml-2 has-text-grey"></i></a></section><article class="mt-6 comment-container"><script async repo="Haojen/Claudia-theme-blog" src="https://utteranc.es/client.js" issue-term="pathname" theme="preferred-color-scheme"></script></article></div></div></main></main><footer class="is-flex is-flex-direction-column is-align-items-center is-flex-shrink-0 is-family-serif"><section class="sns-container"><a title="twitter" target="_blank" rel="noopener nofollow" href="//twitter.com//"><i class="iconfont icon-twitter"></i></a><!-- Github--><a title="github" target="_blank" rel="noopener nofollow" href="//github.com/Zcus"><i class="iconfont icon-github"></i></a><!-- Ins--><a title="instagram" target="_blank" rel="noopener nofollow" href="//www.instagram.com//"><i class="iconfont icon-ins"></i></a><!-- RSS--><!-- 知乎--><!-- 领英--><!-- 脸书--><a title="facebook" target="_blank" rel="noopener nofollow" href="//www.facebook.com//"><i class="iconfont icon-tian7_facebook"></i></a></section><p><span>Copyright ©</span><span> Zcus 2021</span></p><div class="is-flex is-justify-content-center is-flex-wrap-wrap"><p>Powered by Hexo &verbar;&nbsp;</p><p class="is-flex is-justify-content-center"><a title="Hexo theme author" target="_blank" rel="noopener" href="//github.com/haojen">Theme by Haojen&nbsp;</a></p><div style="margin-top: 2px"><a class="github-button" title="github-button" target="_blank" rel="noopener" href="https://github.com/haojen/hexo-theme-Claudia" data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true"></a></div></div><div><span></span></div></footer><script async defer src="https://buttons.github.io/buttons.js"></script><script src="/js/post.js"></script></body></html>

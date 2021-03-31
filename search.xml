@@ -12,6 +12,12 @@
       
       
       
+        <tags>
+            
+            <tag> 专题记录 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -24,6 +30,12 @@
         <content type="html"><![CDATA[<p>根号技巧记录</p><span id="more"></span><h2 id="分块"><a href="#分块" class="headerlink" title="分块"></a>分块</h2><p>在查询同一个区间很多次的时候， 可以对于块大小进行微调， 然后将两边的离散块合并成一个假块。（这样在块大小比较大的时候省下一些时间）</p><h3 id="根号平衡"><a href="#根号平衡" class="headerlink" title="根号平衡"></a>根号平衡</h3><p>一般来说采用值域分块， 在许多题目里都有体现(只要当修改和询问不是一个量级的时候就可以派上用场）</p><h2 id="莫队"><a href="#莫队" class="headerlink" title="莫队"></a>莫队</h2><p>序列长为 $n$,  $m$ 询问， 莫队的复杂度为 $n \sqrt{m}$  ：以左端点为第一关键字， 右端点为第二关键字</p><p>其实莫队不要只看于做区间的操作， 只需要有一个二维的变量，然后发现是可以从  $[l, r]$ 递推的就可以做。 </p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 专题记录 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -38,6 +50,12 @@
       
       
       
+        <tags>
+            
+            <tag> 题单 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -50,6 +68,12 @@
         <content type="html"><![CDATA[<p>纳什均衡是一个博弈论的知识点</p><span id="more"></span><p> 我们可以通过从百度上了解一下它的一些经典的问题， 比如和美女下棋什么的</p><p>纳什均衡点指一个人的取到最小期望收益的最大值的操作</p><p>首先有一个定理：在零和博弈中， 一定存在一个纳什均衡点。</p><p>那么我们只要了求两个直线的交点就可以求得纳什均衡点啦</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -64,6 +88,12 @@
       
       
       
+        <tags>
+            
+            <tag> 专题记录 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -76,6 +106,12 @@
         <content type="html"><![CDATA[<p>三月做题记录</p><span id="more"></span><h2 id="NOI-Online-3-提高组-优秀子序列"><a href="#NOI-Online-3-提高组-优秀子序列" class="headerlink" title="[NOI Online #3 提高组] 优秀子序列"></a>[NOI Online #3 提高组] 优秀子序列</h2><p>这是子集卷积exp的模板题吧。。。。 可以详见我的博客 <a href="https://www.cnblogs.com/Zcus/p/14465833.html">this</a></p><h2 id="CF98E-Help-Shrek-and-Donkey"><a href="#CF98E-Help-Shrek-and-Donkey" class="headerlink" title="CF98E Help Shrek and Donkey"></a>CF98E Help Shrek and Donkey</h2><p>纳什均衡的应用。 首先纳什均衡就是每个人都有一个是自己的期望收益最小值最大的点；<br>有定理：在一个零和博弈中， 一定存在一个这样的纳什均衡点<br>这个题也是显然的纳什均衡博弈题。<br>首先， 对于一个人我们有三种不同的操作</p><ol><li>直接翻牌</li><li>询问一张自己没有的牌</li><li>询问一张自己有的牌（达到迷惑对手的目的）<br>然后对于后面两种操作， 后手都有对应的认为（认为是真的还是假的）</li></ol><p>列出期望的表格之后<br><img src="https://cdn.luogu.com.cn/upload/pic/16754.png"><br>发现不可能在 $n, m \neq 0$ 的时候翻排， 因为那样只有 $1/ (m + 1)$ 的收益。<br>然后列方程求纳什均衡点就可以了</p><h2 id="NOI2012-骑行川藏"><a href="#NOI2012-骑行川藏" class="headerlink" title="[NOI2012] 骑行川藏"></a>[NOI2012] 骑行川藏</h2><p>拉格朗日乘子法模板题。 大致思想是当多元函数取到极值的时候一定是对每一个元素求偏导算出来都是0<br>但是对于有条件的极值怎么办呢？ 我们定义一个新的变量， 将原来的函数写作<br>$$<br>f(a, b, c, d, \delta) = f(a, b, c, d) + \ \delta \ \times \ \phi(a, b, c, d)<br>$$<br>其中phi是条件。 这样子求偏导就可以了</p><h2 id="HNOI2016-大数"><a href="#HNOI2016-大数" class="headerlink" title="[HNOI2016]大数"></a>[HNOI2016]大数</h2><p>直接把每个数表示成为两个后缀之间， 直接用莫队做就可以了， 注意要特判Mod等于2或5</p><h2 id="HNOI2016-网络"><a href="#HNOI2016-网络" class="headerlink" title="[HNOI2016]网络"></a>[HNOI2016]网络</h2><p>有一个比较暴力的做法， 现在提一下比较妙的做法<br>就是考虑二分， 如果所有的大于mid的修改都经过了x这个点， 那么x的答案一定小于mid， 这样就可以整体二分了</p><h2 id="CF585F-Digits-of-Number-Pi"><a href="#CF585F-Digits-of-Number-Pi" class="headerlink" title="CF585F Digits of Number Pi"></a>CF585F Digits of Number Pi</h2><p><del>集训队作业混子题</del><br>首先我们可以发现只需要考虑长度等于 $d / 2$ 的子串， 范围不大， 我们直接考虑去把s的每一个长度为 $d / 2$ 的子串都插入到AC自动机上， 然后直接去做数位DP就可以解决了</p><h2 id="AT5200-AGC038C-LCMs"><a href="#AT5200-AGC038C-LCMs" class="headerlink" title="AT5200 [AGC038C] LCMs"></a>AT5200 [AGC038C] LCMs</h2><p>直接画一下式子， 狄利克雷前缀和就做完了</p><h2 id="NOI2019序列"><a href="#NOI2019序列" class="headerlink" title="NOI2019序列"></a>NOI2019序列</h2><p>模拟费用流， 首先可以构建出一个费用流模型（这个在考试上就有64pts了）， 发现我们有一个关于 $\ge K$的限制， 但是网络流中不太好表示这个， 于是我们可以考虑就是转换为 $\le L - K$ ,  那就可以连出下图的网络流模型</p><p><img src="https://cdn.luogu.com.cn/upload/pic/64127.png"></p><p>发现我们可以抽象为如下流：</p><ul><li>选一对AB</li><li>选一个A和一个B</li></ul><p>所以我们可以用若干个堆来维护， 没有选的A， 没有选的B， 没有选了的AB。</p><p>分类讨论一下就好了</p><h2 id="JSOI2004-平衡点-吊打XXX"><a href="#JSOI2004-平衡点-吊打XXX" class="headerlink" title="[JSOI2004]平衡点 / 吊打XXX"></a>[JSOI2004]平衡点 / 吊打XXX</h2><p>模拟退火即可</p><h2 id="CQOI2014-危桥"><a href="#CQOI2014-危桥" class="headerlink" title="[CQOI2014]危桥"></a>[CQOI2014]危桥</h2><p>一开始有一个错误的网络流， 那就是基础的连向 $a1, \ a2, \ b1, \ b2$ 然后跑网络流， 但是这样是错误的， 因为可能$b1$ 会贡献到 $a2$, 那怎么办呢？我们将 $a_1$ $a_2$ 交换之后就可以了。 对于这种流错的， 其实可以考虑一下交换源汇。 证明有些许麻烦</p><h2 id="ZJOI2015-幻想乡-Wi-Fi-搭建计划"><a href="#ZJOI2015-幻想乡-Wi-Fi-搭建计划" class="headerlink" title="[ZJOI2015]幻想乡 Wi-Fi 搭建计划"></a>[ZJOI2015]幻想乡 Wi-Fi 搭建计划</h2><p>考虑如果只有上面的点， 可以发现， 因为上面的半径R都是一个定值， 那么每一个圆覆盖的点都是按照x排序之后的一段区间， DP就可以解决部分分。</p><p>考虑到我们现在有了下面的点，但是同理， 如果我们只考虑到下面的点， 那么覆盖的一定也是一段区间。 这样我们就可以枚举一个点被下面覆盖还是上面， 类似的转移就好了。</p><h2 id="POI2005-SZA-Template"><a href="#POI2005-SZA-Template" class="headerlink" title="[POI2005]SZA-Template"></a>[POI2005]SZA-Template</h2><p>KMP有趣的题目！</p><p>首先你会发现这个题一看就是和border有关， 那么我们考虑这个串的border。 发现答案一定是和自己的border答案有关， 但是还是有一个限制， 带上限制DP就好了</p><h2 id="TJOI2015-概率论"><a href="#TJOI2015-概率论" class="headerlink" title="[TJOI2015]概率论"></a>[TJOI2015]概率论</h2><p>首先n个点的二叉树个数我们是可以快速计算的</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 做题记录 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -90,6 +126,12 @@
       
       
       
+        <tags>
+            
+            <tag> 专题记录 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -102,6 +144,12 @@
         <content type="html"><![CDATA[<p>本文主要参考了 2015吕凯风的论文《集合幂级数的性质与应用及其快速算法》</p><span id="more"></span><p><del>先咕了</del></p><h2 id="集合幂级数"><a href="#集合幂级数" class="headerlink" title="集合幂级数"></a>集合幂级数</h2><p>为了与形式幂级数相对应， 我们定义集合幂级数为<br>$$<br>f = \sum_{S  2^U} f_S x^{S}<br>$$<br>​    </p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -116,6 +164,12 @@
       
       
       
+        <tags>
+            
+            <tag> 专题记录 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -128,6 +182,12 @@
         <content type="html"><![CDATA[<p>21.3月考试总结</p><span id="more"></span><h2 id="3-6"><a href="#3-6" class="headerlink" title="3.6"></a>3.6</h2><p>没考</p><h2 id="3-7"><a href="#3-7" class="headerlink" title="3.7"></a>3.7</h2><p>好像是50多分吧<br>自闭了， 被吊起来打</p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>首先是对于DP还是不够熟练， 考试的时候也没有认真思考， 送走了T1这样的一个送分题， 其实认真想一下还是可以马上想出来的<br>第二题是可以直接推导式子来做出来的， 但是我这里不够熟练导致还是只有暴力分<br>第三题以为DSU ON TREE有不少分， 但是还是想错了， 其实和暴力同分浪费了考试的时候大量的时间<br>考试的时候精力不集中， 竟然睡着了。。。。。。。。</p><h3 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h3><h4 id="序列"><a href="#序列" class="headerlink" title="序列"></a>序列</h4><p>首先可以把这个不像样的数学式子化简成人话， 也就是每一段里面选的个数如果不超过h个那么就有1的贡献<br>DP方程比较显然然后中间的转移套上一个比较厉害的贪心就好了</p><h4 id="递推"><a href="#递推" class="headerlink" title="递推"></a>递推</h4><ul><li><p>你可以直接推导式子</p></li><li><p>发现答案是 $(a + b_i) ^ n$， 但是你还需要判断虚部收敛性， 虚部收敛相当于级数收敛， 那么模长小于1</p><h4 id="统计"><a href="#统计" class="headerlink" title="统计"></a>统计</h4><p>这题还是比较有趣的<br>考虑一个序列的情况， 不太好做。 考虑分块。 发现在一个块内， 两个块内的都比较好做。 如果是三个块内的时候， 那么我们就可以使用FFT把这个块左边的右边的合并起来就可以了<br>那么一个树的情况就是套上一个树分块， 代码细节有点多</p><h2 id="3-13"><a href="#3-13" class="headerlink" title="3.13"></a>3.13</h2><p>得分:<br>$25 + 4 + 72 = 101$<br>自闭了， 又垫底了</p><h3 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a>总结</h3><p>T1是一个搜索题， 是真的没想到也想不到<br>T2因为题目太复杂而直接弃掉， 失去了64pts暴力分的机会<br>T3一直在玩提交答案题。</p><h3 id="题解-1"><a href="#题解-1" class="headerlink" title="题解"></a>题解</h3><h4 id="图书馆"><a href="#图书馆" class="headerlink" title="图书馆"></a>图书馆</h4><p>直接搜， 发现可以过</p><h4 id="决战圣诞树"><a href="#决战圣诞树" class="headerlink" title="决战圣诞树"></a>决战圣诞树</h4><p>挺好的一个题， 至少补足了我的知识盲点<br>首先注意到这个  $P mod k = 1$ 这就是在提示我们其实是存在模P意义下的单位根, 那么我们就可以考虑多项式做法。<br>那么题目就可以变成<br>（乘多项式都是循环卷积）</p></li><li><p>每次对一个点相邻的点乘上一个多项式</p></li><li><p>每次对一个点的子树乘上多项式</p></li><li><p>每次选一个子树询问子树内多项式的乘积的某一项系数</p></li></ul><p>这个很明显， 直接维护点值就可以。 有一个套路就是维护相邻的点和子树内的点的时候是可以使用一种bfs与dfs序结合的做法， 就是在dfs遍历的时候先遍历完自己的所有儿子， 然后在向下递归， 这样就可以表示出相邻的点和子树内的点了</p><h2 id="3-14"><a href="#3-14" class="headerlink" title="3.14"></a>3.14</h2><p>最近都是自闭考试</p><h3 id="总结-2"><a href="#总结-2" class="headerlink" title="总结"></a>总结</h3><p>虽然T1一开始博弈论走的方向很对， 但是最后一步竟然打错表了， 与正解失之交臂。<br>T2可以直接使用暴力分AC， 考试的时候暴力都没写还是太不行了<br>T3推式子比较麻烦的题自己在这方面还是不行， 要去多练练</p><h3 id="题解-2"><a href="#题解-2" class="headerlink" title="题解"></a>题解</h3><p>好难写啊</p><h4 id="T1"><a href="#T1" class="headerlink" title="T1"></a>T1</h4><p>直接去找规律吧， 有时候博弈论的题目先打出表之后不要去满屏的找规律， 可以自己先根据自己对这个题目的理解再结合表去寻找规律。</p><h4 id="T2"><a href="#T2" class="headerlink" title="T2"></a>T2</h4><p>被暴力直接A掉可还行<br>其实正解挺麻烦的<br>先咕了</p><h4 id="T3"><a href="#T3" class="headerlink" title="T3"></a>T3</h4><p>咕</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 考试总结 </tag>
+            
+        </tags>
       
     </entry>
     

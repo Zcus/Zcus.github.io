@@ -6,7 +6,7 @@
   <link href="http://zcus.github.io/atom.xml" rel="self"/>
   
   <link href="http://zcus.github.io/"/>
-  <updated>2021-03-31T13:17:41.563Z</updated>
+  <updated>2021-04-02T00:52:43.103Z</updated>
   <id>http://zcus.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>超级科技</title>
+    <link href="http://zcus.github.io/2021/04/02/%E8%B6%85%E7%BA%A7%E7%A7%91%E6%8A%80/"/>
+    <id>http://zcus.github.io/2021/04/02/%E8%B6%85%E7%BA%A7%E7%A7%91%E6%8A%80/</id>
+    <published>2021-04-02T00:52:11.000Z</published>
+    <updated>2021-04-02T00:52:43.103Z</updated>
+    
+    <content type="html"><![CDATA[<p>KMP能求前缀等于后缀！！！！！！！！！！！</p><p>来自zxyhymzg</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;KMP能求前缀等于后缀！！！！！！！！！！！&lt;/p&gt;
+&lt;p&gt;来自zxyhymzg&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="学习笔记" scheme="http://zcus.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>多项式记录</title>
@@ -75,25 +99,6 @@
   </entry>
   
   <entry>
-    <title>纳什均衡</title>
-    <link href="http://zcus.github.io/2021/03/25/[%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0]%E7%BA%B3%E4%BB%80%E5%9D%87%E8%A1%A1/"/>
-    <id>http://zcus.github.io/2021/03/25/[%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0]%E7%BA%B3%E4%BB%80%E5%9D%87%E8%A1%A1/</id>
-    <published>2021-03-25T06:07:05.000Z</published>
-    <updated>2021-03-31T07:16:31.851Z</updated>
-    
-    <content type="html"><![CDATA[<p>纳什均衡是一个博弈论的知识点</p><span id="more"></span><p> 我们可以通过从百度上了解一下它的一些经典的问题， 比如和美女下棋什么的</p><p>纳什均衡点指一个人的取到最小期望收益的最大值的操作</p><p>首先有一个定理：在零和博弈中， 一定存在一个纳什均衡点。</p><p>那么我们只要了求两个直线的交点就可以求得纳什均衡点啦</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;纳什均衡是一个博弈论的知识点&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="学习笔记" scheme="http://zcus.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
     <title>字符串记录</title>
     <link href="http://zcus.github.io/2021/03/25/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%AE%B0%E5%BD%95/"/>
     <id>http://zcus.github.io/2021/03/25/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%AE%B0%E5%BD%95/</id>
@@ -104,6 +109,25 @@
     
     
     <summary type="html">&lt;p&gt;这里就是分专题的记录， 题目的话都会记录到做题记录里去， 但是对于一些好题就会在放进来总结.&lt;br&gt;一些知识点&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="专题记录" scheme="http://zcus.github.io/tags/%E4%B8%93%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数学记录</title>
+    <link href="http://zcus.github.io/2021/03/25/%E6%95%B0%E5%AD%A6%E8%AE%B0%E5%BD%95/"/>
+    <id>http://zcus.github.io/2021/03/25/%E6%95%B0%E5%AD%A6%E8%AE%B0%E5%BD%95/</id>
+    <published>2021-03-25T06:07:05.000Z</published>
+    <updated>2021-03-31T07:16:12.747Z</updated>
+    
+    <content type="html"><![CDATA[<p>数学技巧记录</p><span id="more"></span><p>大致的分为</p><ul><li>计数/计算</li><li>概率期望</li><li>数论题</li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;数学技巧记录&lt;/p&gt;</summary>
     
     
     
@@ -132,25 +156,6 @@
   </entry>
   
   <entry>
-    <title>数据结构记录</title>
-    <link href="http://zcus.github.io/2021/03/25/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%AE%B0%E5%BD%95/"/>
-    <id>http://zcus.github.io/2021/03/25/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%AE%B0%E5%BD%95/</id>
-    <published>2021-03-25T06:07:05.000Z</published>
-    <updated>2021-03-31T07:16:10.147Z</updated>
-    
-    <content type="html"><![CDATA[<p>数据结构技巧记录</p><span id="more"></span><h2 id="线段树"><a href="#线段树" class="headerlink" title="线段树"></a>线段树</h2><ul><li>对于一些使区间推平， 快速减小的考虑势能线段树<br><a href="https://loj.ac/p/6507">雅礼集训 2018 Day7 A</a></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;数据结构技巧记录&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="专题记录" scheme="http://zcus.github.io/tags/%E4%B8%93%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
     <title>集合幂级数及子集卷积</title>
     <link href="http://zcus.github.io/2021/03/25/%E9%9B%86%E5%90%88%E5%B9%82%E7%BA%A7%E6%95%B0%E5%8F%8A%E5%AD%90%E9%9B%86%E5%8D%B7%E7%A7%AF/"/>
     <id>http://zcus.github.io/2021/03/25/%E9%9B%86%E5%90%88%E5%B9%82%E7%BA%A7%E6%95%B0%E5%8F%8A%E5%AD%90%E9%9B%86%E5%8D%B7%E7%A7%AF/</id>
@@ -170,16 +175,16 @@
   </entry>
   
   <entry>
-    <title>数学记录</title>
-    <link href="http://zcus.github.io/2021/03/25/%E6%95%B0%E5%AD%A6%E8%AE%B0%E5%BD%95/"/>
-    <id>http://zcus.github.io/2021/03/25/%E6%95%B0%E5%AD%A6%E8%AE%B0%E5%BD%95/</id>
+    <title>数据结构记录</title>
+    <link href="http://zcus.github.io/2021/03/25/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%AE%B0%E5%BD%95/"/>
+    <id>http://zcus.github.io/2021/03/25/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%AE%B0%E5%BD%95/</id>
     <published>2021-03-25T06:07:05.000Z</published>
-    <updated>2021-03-31T07:16:12.747Z</updated>
+    <updated>2021-03-31T07:16:10.147Z</updated>
     
-    <content type="html"><![CDATA[<p>数学技巧记录</p><span id="more"></span><p>大致的分为</p><ul><li>计数/计算</li><li>概率期望</li><li>数论题</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>数据结构技巧记录</p><span id="more"></span><h2 id="线段树"><a href="#线段树" class="headerlink" title="线段树"></a>线段树</h2><ul><li>对于一些使区间推平， 快速减小的考虑势能线段树<br><a href="https://loj.ac/p/6507">雅礼集训 2018 Day7 A</a></li></ul>]]></content>
     
     
-    <summary type="html">&lt;p&gt;数学技巧记录&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;数据结构技巧记录&lt;/p&gt;</summary>
     
     
     
@@ -204,6 +209,25 @@
     
     
     <category term="考试总结" scheme="http://zcus.github.io/tags/%E8%80%83%E8%AF%95%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>纳什均衡</title>
+    <link href="http://zcus.github.io/2021/03/25/[%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0]%E7%BA%B3%E4%BB%80%E5%9D%87%E8%A1%A1/"/>
+    <id>http://zcus.github.io/2021/03/25/[%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0]%E7%BA%B3%E4%BB%80%E5%9D%87%E8%A1%A1/</id>
+    <published>2021-03-25T06:07:05.000Z</published>
+    <updated>2021-03-31T07:16:31.851Z</updated>
+    
+    <content type="html"><![CDATA[<p>纳什均衡是一个博弈论的知识点</p><span id="more"></span><p> 我们可以通过从百度上了解一下它的一些经典的问题， 比如和美女下棋什么的</p><p>纳什均衡点指一个人的取到最小期望收益的最大值的操作</p><p>首先有一个定理：在零和博弈中， 一定存在一个纳什均衡点。</p><p>那么我们只要了求两个直线的交点就可以求得纳什均衡点啦</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;纳什均衡是一个博弈论的知识点&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="学习笔记" scheme="http://zcus.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
